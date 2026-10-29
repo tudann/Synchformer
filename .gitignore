@@ -9,3 +9,19 @@ temp
 *.pyth
 todel
 .vscode
+
+# Local environments, caches, and generated runs
+.venv/
+.cache/
+outputs/
+/reproduce/.venv/
+/reproduce/.cache/
+/reproduce/outputs/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.gguf
